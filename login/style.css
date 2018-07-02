@@ -1,0 +1,67 @@
+body {
+	text-rendering: auto;
+	font-family: Didact Gothic;
+	margin: 0px;
+	background: #FAFAFA;
+}
+#error_spase{
+	font-size: 27;
+	color: red;
+	text-align:  center;
+	width: 	100%;
+	height: 100px;
+}
+#iformation{
+	text-align: justify ;
+	padding-left: -5%;
+	padding-right: -5%;
+	margin-top: 3%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	width: 	500px;
+	height: 100px;
+}
+#logon_div{
+	box-shadow: 0 0 7px rgba(0,0,0,0.5); 
+	margin-top: 5%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	border: 1px #EDEEEE solid;
+	background: white;
+	width: 500px;
+	height: 400px;
+}
+h1{
+	text-align:  center;
+}
+
+input {
+	border-radius: 3px;
+	padding-left: 5px; 
+	font-size: 16;
+	width: 75%;
+	height: 45px;
+	margin-left: 12%; 
+    background-color: #FAFAFA;
+	border: solid #C0C0C0 1px;
+}
+input:placeholder-shown {
+	font-family: Didact Gothic;
+
+ color: #c0392b;
+ font-size: 20;
+}
+input[type="submit"]{
+	box-shadow: 0 0 5px rgba(0,0,0,0.5); 
+	color: white;
+	font-size: 28;
+	font-family: Didact Gothic;
+	margin-left: 12%; 
+	width: 75%;
+	height: 45px;
+    background: #4090db;
+    border: none;
+    border-radius: 3px;
+   }
